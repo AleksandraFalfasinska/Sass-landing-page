@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  font-family: $font-family;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  position: relative;
+  width: 1000px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}

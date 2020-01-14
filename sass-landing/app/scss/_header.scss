@@ -1,0 +1,35 @@
+header {
+  position: absolute;
+  margin: 0;
+  right: 0;
+  left: 0;
+  color: $light-color;
+
+  .container {
+    justify-content: space-between;
+
+    .header-logo {
+      i {
+        font-size: $icon-size;
+        color: $primary-color;
+      }
+      h1 {
+        display: inline-block;
+      }
+    }
+  }
+
+  .header-contact {
+    display: flex;
+    align-items: center;
+
+    i {
+      font-size: $icon-size;
+      margin-right: 6px;
+    }
+    
+    span {
+      display: block;
+    }
+  }
+}

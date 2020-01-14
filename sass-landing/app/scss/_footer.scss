@@ -1,0 +1,32 @@
+footer {
+  padding: 40px;
+  background-color: #292929;
+  color: $light-color;
+
+  .container {
+    justify-content: space-around;
+
+    .footer-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 30px;
+
+      i {
+        font-size: 2rem;
+        padding: 15px;
+        color: $dark-color;
+        background-color: $primary-color;
+      }
+
+      span {
+        margin-top: 8px;
+      }
+    }
+  }
+
+  p {
+    margin-top: 30px;
+    text-align: center;
+  }
+}

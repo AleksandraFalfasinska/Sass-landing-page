@@ -1,0 +1,41 @@
+.form-section {
+  background-image: url(../img/background.png);
+  background-size: cover;
+  padding-top: 130px;
+  height: 100vh;
+  min-height: 720px;
+
+  .container {
+    justify-content: flex-end;
+  }
+
+  &-item {
+    width: 400px;
+    color: $light-color;
+
+    h2 {
+      span {
+        color: $primary-color;
+      }
+    }
+
+    form {
+      padding: 20px;
+      background-color: $secondary-color;
+
+      input:not([type=submit]),
+      textarea {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 15px;
+      }
+
+      input[type=submit] {
+        padding: 25px;
+        background-color: $primary-color;
+        border: none;
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
